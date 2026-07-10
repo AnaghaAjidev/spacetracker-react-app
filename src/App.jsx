@@ -15,12 +15,12 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<AddMission/>} />
-        <Route path='/search' element={<SearchMission/>} />
-        <Route path='/delete' element={<DeleteMission/>} />
-        <Route path='/view' element={<ViewAllMission/>} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<AddMission />} />
+          <Route path='/search' element={<SearchMission />} />
+          <Route path='/delete' element={<DeleteMission />} />
+          <Route path='/view' element={<ViewAllMission />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
